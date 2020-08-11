@@ -1,0 +1,24 @@
+Package: PackageTest
+Title: What the Package Does (one line, title case)
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+License: What license is it under?
+LazyData: true
+RoxygenNote: 6.0.1
+biocViews:
+Depends:
+  R (>= 3.2.2),
+  AER,
+  biomaRt,
+  GenomicRanges,
+  ggplot2,
+  ggpubr,
+  plyr,
+  dplyr,
+  purrr,
+  broom,
+  tidyr,
+  reshape2,
+  rtracklayer,
+  stringr
